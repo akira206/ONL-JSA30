@@ -1,0 +1,87 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.phan1
+{
+    height: 40px;
+    background: #E7E7E7;
+    position: fixed ;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+a
+{
+    text-decoration-line: none;
+    color: #777777;
+    margin-right: 20px;
+}
+a:hover
+{
+    color: #FF4500;
+}
+.left
+{
+    float: left;
+    padding: 10px 20px;
+}
+.right
+{
+    float: right;
+    padding: 10px 20px;
+}
+.phan2
+{
+    height: 80px;
+    background: #F8F8F8;
+    padding-bottom: 70px;
+    margin-top: 41px;
+}
+.logo
+{
+    margin: 0px 0px 0px 100px;
+}
+.menu
+{
+    float: right;
+    font-size: 30px;
+    margin-right: 70px;
+}
+.form-dangky
+{
+    box-sizing: border-box;
+    width: 360px;
+    margin: 100px auto 0;
+    padding-bottom: 40px;
+    border-radius: 3px;
+}
+.tieude
+{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.dangky input
+{
+    margin: 40px 25px;
+    width: 250px;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #1abc9c;
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: #0e6252;
+}
+.nutbam button
+{
+    border: none;
+    background: #1abc9c;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: white;
+    margin-left: 25px;
+}

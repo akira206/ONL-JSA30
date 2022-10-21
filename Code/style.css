@@ -1,0 +1,246 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.phan1
+{
+    height: 40px;
+    background: #E7E7E7;
+    position: fixed ;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+a
+{
+    text-decoration-line: none;
+    color: #777777;
+    margin-right: 20px;
+}
+a:hover
+{
+    color: #FF4500;
+}
+.left
+{
+    float: left;
+    padding: 10px 20px;
+}
+.right
+{
+    float: right;
+    padding: 10px 20px;
+}
+.phan2
+{
+    height: 80px;
+    background: #F8F8F8;
+    padding-bottom: 70px;
+    margin-top: 41px;
+}
+.logo
+{
+    margin: 0px 0px 0px 100px;
+}
+.menu
+{
+    float: right;
+    font-size: 30px;
+    margin-right: 70px;
+}
+.moi
+{
+    margin-left: 25px;
+}
+.container
+{
+    height: 70px;
+    background: #E7E7E7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1
+{
+    margin-left: 70px;
+}
+.menu .sach
+{
+    float: right;
+    font-size: 30px;
+    margin-right: 60px;
+}
+.product-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+.product-div
+{
+    border: 2px solid whitesmoke;
+    width: 250px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.product-div:hover
+{
+    border: 2px solid black;
+}
+
+.product-div:hover .product-p
+{
+    margin-bottom: 10px;
+}
+
+.product-img
+{
+    width: 250px; 
+}
+.product-content
+{
+    margin-left: 15px;
+}
+.style
+{
+    font-size: 15px;
+    color: #767677;
+}
+.SliderShow
+{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.MySlider
+{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Slides
+{
+    width: 500%;
+    height: 420px;
+    display: flex;
+}
+.Slides input
+{
+    display: none;
+}
+.Slide
+{
+    width: 20%;
+    transition: 1.5s;
+}
+.Slide img
+{
+    width: 800px;
+    height: 400px;
+}
+.nav-manual
+{
+    position: relative;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn
+{
+    border: 2px solid #777777;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child)
+{
+    margin-right: 40px;
+}
+.manual-btn:hover
+{
+    background: #777777;
+}
+#radio1:checked ~ .frist
+{
+    margin-left: 0;
+}
+#radio2:checked ~ .frist
+{
+    margin-left: -20%;
+}
+#radio3:checked ~ .frist
+{
+    margin-left: -40%;
+}
+#radio4:checked ~ .frist
+{
+    margin-left: -60%;
+}
+.nav-auto
+{
+    position: absolute;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 380px;
+}
+.nav-auto div
+{
+    border: 2px solid #777777;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.nav-auto div:not(:last-child)
+{
+    margin-right: 40px;
+}
+#radio1:checked ~ .nav-auto .auto-btn1
+{
+    background: #777777;
+}
+#radio2:checked ~ .nav-auto .auto-btn2
+{
+    background: #777777;
+}
+#radio3:checked ~ .nav-auto .auto-btn3
+{
+    background: #777777;
+}
+#radio4:checked ~ .nav-auto .auto-btn4
+{
+    background: #777777;
+}
+.gioithieu
+{
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+}
+.hotro
+{
+    margin-right: 300px;
+}
+.taikhoan
+{
+    margin-right: 300px;
+}
+.phancuoi
+{
+    margin: 50px 100px 50px 200px;
+    font-size: 30px;
+}
+p
+{
+    color: #777777;
+    font-size: 20px;
+}

@@ -1,0 +1,141 @@
+.phan1
+{
+    height: 40px;
+    background: #E7E7E7;
+    position: fixed ;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+a
+{
+    text-decoration-line: none;
+    color: #777777;
+    margin-right: 20px;
+}
+a:hover
+{
+    color: #FF4500;
+}
+.left
+{
+    float: left;
+    padding: 10px 20px;
+}
+.right
+{
+    float: right;
+    padding: 10px 20px;
+}
+.phan2
+{
+    height: 80px;
+    background: #F8F8F8;
+    padding-bottom: 70px;
+    margin-top: 41px;
+}
+.logo
+{
+    margin: 0px 0px 0px 100px;
+}
+.menu
+{
+    float: right;
+    font-size: 30px;
+    margin-right: 70px;
+}
+.detail-container
+{
+    width: 980px;
+    height: 500px;
+    display: flex;
+    margin: 100px auto;
+    background: #FFFFFF;
+}
+.detail-right
+{
+    margin-left: 40px;
+}
+.container
+{
+    height: 70px;
+    background: #E7E7E7;
+    color: #FF4500;
+}
+h1
+{
+    margin-left: 70px;
+}
+.menu .sach
+{
+    float: right;
+    font-size: 30px;
+    margin-right: 60px;
+}
+.product-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
+}
+.product-div
+{
+    border: 2px solid whitesmoke;
+    width: 250px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.product-div:hover
+{
+    border: 2px solid black;
+}
+
+.product-div:hover .product-p
+{
+    margin-bottom: 10px;
+}
+
+.product-img
+{
+    width: 250px; 
+}
+.product-content
+{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.style
+{
+    font-size: 15px;
+    color: #767677;
+}
+.gioithieu
+{
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+}
+.hotro
+{
+    margin-right: 300px;
+}
+.taikhoan
+{
+    margin-right: 300px;
+}
+.phancuoi
+{
+    margin: 50px 100px 50px 200px;
+    font-size: 30px;
+}
+p
+{
+    color: #777777;
+    font-size: 20px;
+}
