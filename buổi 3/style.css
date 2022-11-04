@@ -1,0 +1,41 @@
+*
+{
+    background-color: #ffd8d8;
+}
+input
+{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 35px;
+    border: 0;
+    background-color:#ff7575 ;
+    border-radius: 5px;
+    box-shadow: 0 10px 40px #ff7c7c , 0 0 0 20px #fff;
+    outline: none;
+}
+input[type=""text]
+{
+    width: 50%;
+    height: 50px;
+    font-size: 28px;
+    line-height: 1;
+}
+input[type=""text]::placeholder {
+    color: #ffffff;
+    padding-left: 20px;
+}
+li
+{
+    width: 50%;
+    color: #ff7575;
+    list-style: none;
+    font-size: 24px;
+    box-shadow: 0 0px 5px #ff7c7c, 0 0 0 #ffffffeb;
+    padding: 10px 0;
+    height: 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 10px;
+}
