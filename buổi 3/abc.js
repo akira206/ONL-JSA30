@@ -83,3 +83,4 @@ function search() {
         }
     }
 }
+localStorage.setItem('buoi 3','value buoi 3')
