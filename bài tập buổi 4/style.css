@@ -1,0 +1,60 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+body
+{
+    background: #282923;
+}
+.nav-menu
+{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover
+{
+    color: aqua;
+    transition: color .4 ease-out;
+}
+.logo
+{
+    font-size: 45px;
+    padding: 10px 0 0 150px;
+}
+.item
+{
+    display: flex;
+}
+.item li
+{
+    padding: 25px 100px 0 0;
+    font-size: 25px;
+}
+.item-link
+{
+    background: black;
+    width: 200px;
+    height:200px;
+    position: absolute;
+    top:70px;
+    display: none;
+}
+.item-link li
+{
+    padding: 10px;
+    text-align: center;
+}
+.menu-link:hover .item-link
+{
+    display: block;
+}
