@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main-conten
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.item .img img
+{
+    width: 400px;
+    height: 300px;
+}
+select
+{
+    width: 100px;
+    height: 50px;
+}
