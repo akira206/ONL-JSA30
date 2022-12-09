@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập về nhà buổi 6</title>
+</head>
+<body>
+    <form class="ShoppingList">
+        <fieldset>
+            <legend>Shopping Cart</legend>
+            <label for="">Item: <input type="text" name="name" id="name"></label>
+            <label for="">Quantity: <input type="text" name="data" id="data"></label>
+
+            <input type="button" value="Save" onclick="SaveItem()">
+            <input type="button" value="Updata" onclick="ModifyItem()">
+            <input type="button" value="Delete" onclick="RemoveItem()">
+        </fieldset>
+        <div id="Item-table">
+            <h2>Shopping List</h2>
+            <table id="list"></table>
+            <label for=""><input type="button" value="Clear" onclick="ClearAll()">*Delete all items</label>
+        </div>
+    </form>
+    <script src="./abc.js"></script>
+</body>
+</html>
