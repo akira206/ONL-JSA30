@@ -1,0 +1,166 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header header5">
+
+
+
+        <div class="middle-header-content">
+<div class="middle-content">
+<div class="container">
+    <div class="header-left col-md-2 col-lg-4">
+        <div class="action-menu-responsive">
+            <button class="action nav-toggle"><i class="fal fa-bars"></i></button>
+        </div>
+            <strong class="logo">
+<img src="https://elise.vn/media/logo/default/logo_color.png" alt="Elise - Exclusive Fashion" width="167" height="28">
+</strong>
+    </div>
+
+    <div class="header-center col-md-4 col-lg-4">
+        
+
+
+
+<div class="search-form">
+<div class="form-search">
+<button class="search-close" onclick="if (!window.__cfRLUnblockHandlers) return false; showHideFormSearch()"><i class="fal fa-times"></i></button>
+<form class="form minisearch" id="search_mini_form" action="https://elise.vn/catalogsearch/result/" method="get">
+    <span class="title-search">Tìm Kiếm</span>
+    <input id="search" type="text" name="q" value="" class="input-text form-control" maxlength="128" role="combobox" aria-expanded="true" aria-haspopup="false" aria-autocomplete="both" autocomplete="off">
+
+    <button type="submit" title="Tìm Kiếm" class="button" disabled="">
+        <i class="fal fa-search"></i>
+    </button>
+    <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
+    <div class="mgs-instant-search-dropdown" data-bind="scope: 'instant_search_form'">
+<!-- ko template: getTemplate() -->
+
+<div id="mgs-instant-autocomplete-wrapper" class="mgs-instant-autocomplete-wrapper scrollbar-inner" data-bind="visible: showPopup()" style="display: none;">
+
+<div data-bind="visible: anyResultCount()" style="display: none;">
+<!-- ko foreach: getRegion('steps') -->
+    <!-- ko template: getTemplate() -->
+<!-- ko foreach: {data: elems, as: 'element'} -->
+<!-- ko if: hasTemplate() --><!-- ko template: getTemplate() --><div class="products products-list" data-bind="if: isVisible() &amp;&amp; result.product"></div><!-- /ko --><!-- /ko -->
+<!-- /ko -->
+<!-- /ko -->
+<!--/ko-->
+</div>
+
+<div class="no-result" data-bind="text: textNoResult, visible: !anyResultCount()">No Result</div>
+</div><!-- /ko -->
+</div>
+
+<script type="text/javascript">
+window.instantSearch = {"result":{"product":{"data":[],"size":0,"url":""},"category":{"data":[],"size":0,"url":""},"page":{"data":[],"size":0,"url":""},"blog":{"data":[],"size":0,"url":""}}};
+</script>		</form>
+</div>
+<div class="actions-search">
+<button class="action-search" onclick="if (!window.__cfRLUnblockHandlers) return false; showHideFormSearch()"><i class="fal fa-search"></i></button>
+</div>
+</div>
+
+<script type="text/javascript">
+function showHideFormSearch(){
+require([
+'jquery'
+], function(jQuery){
+    (function($) {
+        if($('.search-form').hasClass('not-full')){
+            $('html').toggleClass('search-not-full');
+        }
+        $('html').toggleClass('search-open');
+        setTimeout(focusSearchField, 500);
+    })(jQuery);
+});
+}
+
+function focusSearchField(){
+require([
+'jquery'
+], function(jQuery){
+    (function($) {
+        $('#search_mini_form input#search').focus();
+    })(jQuery);
+});
+}
+</script>
+    </div>
+
+    <div class="header-right col-md-6 col-lg-4">
+        <div class="table-icon-menu">
+                                <div style="display:none">
+<audio id="remoteAudio" playsinline="" autoplay="" style="width: 1px"></audio>
+<audio id="localAudio" autoplay="" muted="" style="width: 1px;"></audio>
+</div>
+<div class="header-phone" data-role="stringee-area">
+<a data-phone="0386998080" class="stringee-call-action" href="javascript:void(0)"><i class="fal fa-phone"></i><span>Gọi Ngay</span></a>
+<span id="stringee-call-status"></span>
+</div>
+
+            <div class="dropdown dropdown-toplinks header-account">
+                <div class="dropdown-toggle is-canvas"><span class="label"><i class="fal fa-user"></i>Tài Khoản</span></div>                    </div>
+            
+<div data-block="minicart" class="minicart-wrapper minicart-wrapper--dropdown">
+<a class="action showcart" href="https://elise.vn/checkout/cart/" data-bind="scope: 'minicart_content'">
+<span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
+    <span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
+    <span class="counter-label">
+    <!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+    </span>
+</span>
+<span class="label">Giỏ hàng của tôi </span>
+</a>
+    
+<script type="text/javascript">
+window.checkout = {"shoppingCartUrl":"https:\/\/elise.vn\/checkout\/cart\/","checkoutUrl":"https:\/\/elise.vn\/checkout\/","updateItemQtyUrl":"https:\/\/elise.vn\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/elise.vn\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/elise.vn\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"2","storeGroupId":"1","customerLoginUrl":"https:\/\/elise.vn\/customer\/account\/login\/referer\/aHR0cHM6Ly9lbGlzZS52bi8%2C\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/elise.vn\/captcha\/refresh\/","isRequired":false,"timestamp":1672286948}}};
+</script>
+
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" tabindex="-1" role="dialog" aria-describedby="ui-id-1" style="display: none;"><div class="block block-minicart empty ui-dialog-content ui-widget-content" data-role="dropdownDialog" style="top: 0px;" id="ui-id-1">
+    <button id="close-minicart"><i class="fal fa-times"></i></button>
+    <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+        <h3 class="minicart-title uppercase">Giỏ hàng</h3>
+        <!-- ko template: getTemplate() -->
+<div class="block-content">
+<!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+
+<!-- ko if: getCartParam('items') && getCartParam('items').length > 3 --><!-- /ko -->
+
+<!-- ko ifnot: getCartParam('summary_count') -->
+<strong class="subtitle empty" data-bind="visible: closeSidebar()">
+<!-- ko i18n: 'There is no item in this cart.' --><span>Không có mục nào trong giỏ hàng này.</span><!-- /ko -->
+</strong>
+<!-- ko if: getCartParam('cart_empty_message') --><!-- /ko -->
+<!-- /ko -->
+
+<!-- ko if: getCartParam('summary_count') --><!-- /ko -->
+
+<div id="minicart-widgets" class="minicart-widgets">
+<!-- ko foreach: getRegion('promotion') -->
+<!-- ko template: getTemplate() -->
+<!-- ko foreach: {data: elems, as: 'element'} --><!-- /ko -->
+<!-- /ko -->
+<!-- /ko -->
+</div>
+</div>
+<!-- ko foreach: getRegion('sign-in-popup') --><!-- /ko -->
+<!-- /ko -->
+    </div>
+            </div></div></div>
+
+
+            <div class="header-wl" data-bind="scope: 'wishlist'"><a href="https://elise.vn/wishlist/"><i class="fal fa-heart"></i><span data-bind="text: wishlist().counter" class="counter qty count-wl">0</span> <span class="label">My Wishlist</span> </a></div>                </div>
+    </div>
+</div>
+</div>
+</div>
+
+</header>
+</body>
+</html>
