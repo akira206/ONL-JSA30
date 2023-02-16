@@ -6,14 +6,10 @@
 }
 .nav_bag
 {
-    height: 100vh;
+    
     width: 100%;
     font-family: 'Josefin San', sans-serif;
-    position: fixed ;
-    width: 100%;
-    top: 0;
-    z-index: 10;
-    color: #777777
+    
 }
 .menu
 {
@@ -23,8 +19,6 @@
     padding-top: 40px;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 2%;
-    background-color: white;
 }
 .logo
 {
@@ -62,52 +56,51 @@ a:hover
 {
     transform: scale(1.3);
 }
-.content
-{
-    margin-top: 10%;
-}
-.kk
+/* .kk
 {
     justify-content: space-around;
+} */
+.all 
+{
+    margin-left: 600px;
+    border-bottom: solid ;
 }
-.first {
-    padding-right: 10px;
+.js
+{
+    margin-left: 50px;
 }
-.second {
-    padding-right: 10px;
+.jtui
+{
+    margin-left: 50px;
 }
-.third {
-    padding-right: 10px;
+.img
+{
+    border: solid;
 }
+.tet 
+{
+    margin-left: 10px;
 
-.fifth {
-    padding-right: 10px;
 }
-.sixth {
-    padding-right: 10px;
+.price 
+{
+    margin-left: 80px;
 }
-.seventh {
-    padding-right: 10px;
-}
+.giay
+{
+    margin-right: 20px;
 
-.box-hover {
-    margin: 10px auto;
-    border: 1px solid #CCC;
-    
-    overflow: hidden;
-    position: relative;
-}
-.box-hover img {
-    max-width: 100%;
-    transition: all 1s;
-}
 
-.box-hover .img-change {
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 1;
 }
-.box-hover:hover .img-change {
-    opacity: 0;
+.pricee
+{
+    margin-left: 100px;
+}
+.name
+{
+    margin-left: 40px;
+}
+.container
+{
+    display: flex;flex-wrap: wrap;
 }
